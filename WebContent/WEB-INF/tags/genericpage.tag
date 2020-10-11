@@ -1,4 +1,6 @@
+<%@tag import="java.time.LocalDate"%>
 <%@tag description="Overall Page template" pageEncoding="UTF-8"%>
+
 <%@attribute name="header" fragment="true"%>
 <%@attribute name="footer" fragment="true"%>
 <!DOCTYPE html>
@@ -15,6 +17,8 @@
 <script src="assets/javascript/jquery-2.2.4.min.js"></script>
 <script src="assets/javascript/popper.min.js"></script>
 <script src="assets/javascript/bootstrap.min.js"></script>
+
+<script src="assets/javascript/angular/angular.min.js"></script>
 
 <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
 </head>
@@ -48,7 +52,7 @@
 	<div id="pagefooter" class="container-fluid">
 		<div class="row">
 			<div class="col-lg-12">
-				<p id="copyright">Copyright 2020</p>
+				<p id="copyright">Copyright <%= LocalDate.now().getYear() %></p>
 			</div>
 		</div>
 	</div>

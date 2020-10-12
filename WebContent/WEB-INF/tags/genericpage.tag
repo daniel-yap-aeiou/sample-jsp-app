@@ -39,7 +39,7 @@
                     <a class="nav-link" href="demo.jsp">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="test.jsp">Another page</a>
+                    <a class="nav-link" href="vue.jsp">Another page</a>
                 </li>
             </ul>
         </div>

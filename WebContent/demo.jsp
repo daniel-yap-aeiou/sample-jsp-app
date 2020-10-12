@@ -13,7 +13,7 @@
 			</div>
 		</div>
 		<div class="row" ng-app="todoApp">
-			<div  class="col-lg-12">
+			<div class="col-lg-12">
 				<h3>Todo</h3>
 			</div>
    			<div class="col-lg-12" ng-controller="TodoListController as todoList">
